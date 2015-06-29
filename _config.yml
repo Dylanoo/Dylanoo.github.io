@@ -1,0 +1,132 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: Dylan
+description: Objc技术文章
+keywords: Objective-C
+url: http://dylan-lee.github.io
+feed: /atom.xml
+favicon: /images/shortcut.jpg
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 分类目录 
+    url: /categories.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 联系我
+    url: /contact.html
+  - text: 友情链接
+    url: /links.html
+
+#Author config
+author:
+    name: Dylan.Lee
+    email: Dylan_LE@163.com
+    imageLink: /images/header.jpg
+    simpleIntro: Just Code And Think Different
+    detailIntro:
+      <p>
+         有问题请加QQ:1032100580</br>
+         或者发邮件到Dylan_LE@163.com
+      </p>
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/
+  - class: icon-facebook
+    url: http://facebook.com/
+  - class: icon-github-alt
+    url: http://github.com/
+  - class: icon-twitter
+    url: http://twitter.com/
+  - class: icon-google-plus
+    url: https://plus.google.com/116595571760191938657/about
+
+#Links
+customLinks:
+  - item:
+    - text: cocoachina
+      url: http://www.cocoachina.com
+    - text: Dylan.Lee 的GitHub
+      url: https://github.com/Dylan-Lee
+    message: Friends    
+  - item:
+    - text: Java Code Geeks
+      url: http://www.javacodegeeks.com/
+    - text: Web Developer
+      url: http://www.fromdev.com/
+    - text: BeginnersBook
+      url: http://beginnersbook.com/
+    - text: Mkyong
+      url: http://www.mkyong.com/
+    - text: Java By Nataraj
+      url: http://javabynataraj.blogspot.in/
+    message: About Java
+
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: false
+  id: UA-58146229-1
+
+#baidu tongji
+baiduTongji:
+  config: true
+  id: de7f579312d2d1e1bbc490effb0d3c9d
+
+#comment config
+disqus:
+  config: false
+  id: piznblog
+
+duoshuo:
+  config: true
+  id: Dylan
+
+#baidu share config
+baiduShare:
+  config: true
+  
