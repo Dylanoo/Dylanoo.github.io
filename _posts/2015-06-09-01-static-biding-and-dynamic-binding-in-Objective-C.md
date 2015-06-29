@@ -6,8 +6,6 @@ category: "代码管理工具Git"
 ---
 
 
-
-
 it是分布式的代码管理工具，远程的代码管理是基于ssh的，所以要使用远程的git则需要ssh的配置。
 
 github的ssh配置如下：
